@@ -25,6 +25,8 @@
 #   approved requirements file whose path firstmate puts in {TASK}). Mutually
 #   exclusive with --scout, --secondmate, and --mode. Load e2e-test-scout before
 #   scaffolding or dispatching; that skill owns board-source and no-story routing.
+#   It offers the Lavish review loop only when `fm-bootstrap.sh lavish-compatible`
+#   confirms the supported lavish-axi floor; otherwise it asks for a text report.
 #   --secondmate writes a persistent secondmate charter. The project list
 #   is cloned into the secondmate home, while the natural-language scope
 #   tells the main firstmate when to route work there; routine churn stays in its own home;
